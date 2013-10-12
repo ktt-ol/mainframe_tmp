@@ -1,0 +1,39 @@
+body {
+  background: #000000;
+  color: #5599ff;
+  margin: auto;
+  padding: 0 50px;
+}
+
+h1 {
+  display: block;
+  /*width: 800px;*/
+  height: 368px;
+  background: url('../img/MainframeLogo_BZ16.png') center no-repeat;
+  text-indent: -999em;
+}
+
+a {
+  color: #5599ff;
+}
+a:hover {
+  color: #ffa057;
+}
+
+p.message {
+  padding-top: 50px;
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 1200px) {
+  body {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 850px) {
+  h1 {
+    background: url('../img/MainframeLogo_BZ16_300.png') center no-repeat;
+  }
+}
